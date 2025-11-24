@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>My ePortfolio</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Xolani Zalu</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#game" class="nav-link">Games</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hello, I'm <span class="highlight">Xolani Jabulani Zalu</span></h1>
+                <h2 class="hero-subtitle">Academic Coordinator & Taxation Specialist</h2>
+                <p class="hero-description">Bridging taxation education and technology to create meaningful learning experiences for students.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-pic">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am an accounting graduate completing a BCom Honours in Taxation at the University of the Free State. I currently serve as an Academic Coordinator, where I support teaching teams, manage student performance data, and contribute to student engagement and development.</p>
+                    <p>I work at the intersection of taxation, academic development, and technology. I enjoy building practical tools that make learning clearer, more accessible, and more relevant. As a committed lifelong learner, I strive to make education meaningful and appealing to students through innovative approaches and clear communication.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Academic Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1</h3>
+                            <p>Major Platform Built</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Technologies Utilized</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Academic & Professional</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-calculator"></i>
+                            <span>Taxation</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>Academic Coordination</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Curriculum Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git/GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Firebase/Supabase</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>Microsoft 365</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>SARS eFiling Simulation Platform</h3>
+                        <p>A custom-built Django-based simulation tool designed to teach students how to complete VAT201, ITR12, ITR14 and IRP6 returns in a controlled academic environment with automated grading and lecturer dashboards.</p>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                            <span>Mailgun API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-info-circle"></i> Private Platform</a>
+                            <a href="#" class="project-link"><i class="fas fa-envelope"></i> Request Access</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Academic Performance Analytics</h3>
+                        <p>Data consolidation and analysis system for tracking student performance, attendance, and engagement across multiple academic modules and training programmes.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Excel Automation</span>
+                            <span>Data Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-chart-bar"></i> Dashboard</a>
+                            <a href="#" class="project-link"><i class="fas fa-file-excel"></i> Reports</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>VAT Registration Research</h3>
+                        <p>Comparative study on voluntary VAT registration through Adam Smith's canons of taxation, with case studies from South Africa, Nigeria, and the UK using qualitative doctrinal legal research.</p>
+                        <div class="project-tech">
+                            <span>Research Methods</span>
+                            <span>Legal Analysis</span>
+                            <span>Academic Writing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-file-pdf"></i> Research Paper</a>
+                            <a href="#" class="project-link"><i class="fas fa-book-open"></i> References</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Achievements Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <div class="research-header">
+                <h2>Research & Academic Contributions</h2>
+                <p>Exploring the intersection of taxation policy, education technology, and academic excellence</p>
+            </div>
+            <div class="research-grid">
+                <div class="research-item">
+                    <div class="research-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Current Honours Research</h3>
+                    <p>Comparative study on voluntary VAT registration through Adam Smith's canons of taxation, examining case studies from South Africa, Nigeria, and the UK using qualitative, doctrinal legal research methodology.</p>
+                    <div class="research-tags">
+                        <span>Taxation Policy</span>
+                        <span>Legal Research</span>
+                        <span>Comparative Analysis</span>
+                    </div>
+                </div>
+                
+                <div class="research-item">
+                    <div class="research-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Academic Coordination</h3>
+                    <p>Leading academic support initiatives at the University of the Free State, managing student performance data, supporting teaching teams, and enhancing academic processes across multiple modules.</p>
+                    <div class="research-tags">
+                        <span>Academic Leadership</span>
+                        <span>Data Management</span>
+                        <span>Student Support</span>
+                    </div>
+                </div>
+                
+                <div class="research-item">
+                    <div class="research-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Educational Technology</h3>
+                    <p>Developing innovative digital tools for taxation education, including the comprehensive SARS eFiling simulation platform that bridges theoretical knowledge with practical application.</p>
+                    <div class="research-tags">
+                        <span>EdTech Innovation</span>
+                        <span>Platform Development</span>
+                        <span>Tax Education</span>
+                    </div>
+                </div>
+                
+                <div class="research-item">
+                    <div class="research-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Publications & Writing</h3>
+                    <p>Co-authored research on factors influencing voluntary VAT registration for small businesses, with strong academic writing skills in legal interpretation and taxation policy analysis.</p>
+                    <div class="research-tags">
+                        <span>Academic Writing</span>
+                        <span>Policy Analysis</span>
+                        <span>Small Business Tax</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="career-focus">
+                <h3>Professional Focus Areas</h3>
+                <div class="focus-areas">
+                    <div class="focus-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <span>Taxation Education</span>
+                    </div>
+                    <div class="focus-item">
+                        <i class="fas fa-cogs"></i>
+                        <span>Academic Coordination</span>
+                    </div>
+                    <div class="focus-item">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Data-Informed Teaching</span>
+                    </div>
+                    <div class="focus-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Educational Technology</span>
+                    </div>
+                    <div class="focus-item">
+                        <i class="fas fa-book"></i>
+                        <span>Curriculum Development</span>
+                    </div>
+                    <div class="focus-item">
+                        <i class="fas fa-search"></i>
+                        <span>VAT Systems Research</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="game" class="games-section">
+        <div class="container">
+            <h2 class="section-title">Interactive Games Zone</h2>
+            
+            <!-- Game Selection -->
+            <div class="game-selector">
+                <button class="game-tab active" data-game="snake">🐍 Snake</button>
+                <button class="game-tab" data-game="pong">🏓 Pong</button>
+                <button class="game-tab" data-game="breakout">🧱 Breakout</button>
+                <button class="game-tab" data-game="tetris">🎮 Tetris</button>
+            </div>
+
+            <!-- Game Container -->
+            <div class="game-container">
+                <div class="game-info">
+                    <div class="game-controls">
+                        <div class="score-display">
+                            <span>Score: <span id="currentScore">0</span></span>
+                            <span>High Score: <span id="currentHighScore">0</span></span>
+                            <span id="levelDisplay" style="display: none;">Level: <span id="currentLevel">1</span></span>
+                        </div>
+                        <div class="game-buttons">
+                            <button id="startGameBtn" class="btn btn-primary">Start Game</button>
+                            <button id="pauseGameBtn" class="btn btn-secondary">Pause</button>
+                            <button id="resetGameBtn" class="btn btn-secondary">Reset</button>
+                            <button id="fullscreenBtn" class="btn btn-accent">⛶ Fullscreen</button>
+                        </div>
+                    </div>
+                    <div class="game-instructions">
+                        <div id="instructionsContent">
+                            <h3>Snake Game</h3>
+                            <p>Use arrow keys or WASD to control the snake</p>
+                            <p>Eat the red food to grow and increase your score</p>
+                            <p>Don't hit the walls or yourself!</p>
+                        </div>
+                        <div class="control-keys">
+                            <div class="key-row">
+                                <span class="key">↑</span>
+                            </div>
+                            <div class="key-row">
+                                <span class="key">←</span>
+                                <span class="key">↓</span>
+                                <span class="key">→</span>
+                            </div>
+                            <div class="mobile-controls">
+                                <div class="mobile-dpad">
+                                    <button class="dpad-btn" data-direction="up">↑</button>
+                                    <div class="dpad-middle">
+                                        <button class="dpad-btn" data-direction="left">←</button>
+                                        <button class="dpad-btn" data-direction="right">→</button>
+                                    </div>
+                                    <button class="dpad-btn" data-direction="down">↓</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-canvas-container" id="gameCanvasContainer">
+                    <!-- Snake Game Canvas -->
+                    <canvas id="snakeCanvas" class="game-canvas active" width="400" height="400"></canvas>
+                    
+                    <!-- Pong Game Canvas -->
+                    <canvas id="pongCanvas" class="game-canvas" width="600" height="400"></canvas>
+                    
+                    <!-- Breakout Game Canvas -->
+                    <canvas id="breakoutCanvas" class="game-canvas" width="600" height="400"></canvas>
+                    
+                    <!-- Tetris Game Canvas -->
+                    <canvas id="tetrisCanvas" class="game-canvas" width="300" height="600"></canvas>
+                    
+                    <!-- Fullscreen Controls Overlay -->
+                    <div id="fullscreenControls" class="fullscreen-controls">
+                        <div class="fs-control-panel">
+                            <div class="fs-score-display">
+                                <span>Score: <span id="fsCurrentScore">0</span></span>
+                                <span>High: <span id="fsCurrentHighScore">0</span></span>
+                                <span id="fsLevelDisplay" style="display: none;">Level: <span id="fsCurrentLevel">1</span></span>
+                            </div>
+                            <div class="fs-game-buttons">
+                                <button id="fsStartBtn" class="btn btn-primary btn-fs">▶ Start</button>
+                                <button id="fsPauseBtn" class="btn btn-secondary btn-fs">⏸ Pause</button>
+                                <button id="fsResetBtn" class="btn btn-secondary btn-fs">🔄 Reset</button>
+                                <button id="fsExitBtn" class="btn btn-accent btn-fs">❌ Exit Fullscreen</button>
+                            </div>
+                            <div class="fs-keyboard-hints">
+                                <small>ESC: Exit Fullscreen | SPACE: Pause | R: Reset</small>
+                            </div>
+                        </div>
+                        <button id="toggleControlsBtn" class="toggle-controls-btn">⚙️</button>
+                    </div>
+                    
+                    <div id="gameOverlay" class="game-overlay">
+                        <div class="overlay-content">
+                            <h3 id="overlayTitle">Select a Game</h3>
+                            <p id="overlayMessage">Choose a game above and press Start!</p>
+                            <button id="exitFullscreenBtn" class="btn btn-secondary" style="display: none;">Exit Fullscreen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's collaborate!</h3>
+                    <p>I'm interested in opportunities in taxation education, academic coordination, and educational technology development. Feel free to reach out for collaborations, research partnerships, or academic opportunities.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>xolani.zalu@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-university"></i>
+                            <span>University of the Free State</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bloemfontein, South Africa</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Xolani Jabulani Zalu. All rights reserved. Made with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
